@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Mao Yu",
+      "authorEmail": "maoyu@microsoft.com",
+      "authorUrl": ""
+    }
+  }
+}

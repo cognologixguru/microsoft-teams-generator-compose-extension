@@ -1,0 +1,43 @@
+{
+  "name": "generator-teams-compose-extension",
+  "version": "0.0.1",
+  "description": "Yeoman generator for building compose extension for Microsoft Teams",
+  "homepage": "",
+  "author": {
+    "name": "Mao Yu",
+    "email": "maoyu@microsoft.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "dependencies": {
+    "change-case": "^3.0.1",
+    "yeoman-generator": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "node": true
+    }
+  },
+  "repository": "/generator-teams-compose-extension",
+  "license": "MIT"
+}
