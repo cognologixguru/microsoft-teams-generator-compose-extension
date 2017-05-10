@@ -1,5 +1,6 @@
 'use strict';
 const Generator = require('yeoman-generator');
+let changeCase = require('change-case');
 
 module.exports = class extends Generator {
   prompting() {
@@ -16,7 +17,6 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(this.templatePath('package.json'), this.destinationPath('package.json'), {
-      composeExtensionName: this.props.composeExtensionName,
       description: this.props.description
     });
     this.fs.copyTpl(this.templatePath('manifest.json'), this.destinationPath('manifest.json'),{
