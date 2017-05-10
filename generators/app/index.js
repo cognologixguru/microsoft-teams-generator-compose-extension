@@ -17,6 +17,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(this.templatePath('package.json'), this.destinationPath('package.json'), {
+      composeExtensionName: changeCase.lowerCase(changeCase.headerCase(this.props.composeExtensionName.toLowerCase())),
       description: this.props.description
     });
     this.fs.copyTpl(this.templatePath('manifest.json'), this.destinationPath('manifest.json'),{
