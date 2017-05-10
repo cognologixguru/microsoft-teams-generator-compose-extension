@@ -1,4 +1,4 @@
-# generator-teams-compose-extension [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-teams-compose-extension
 > Yeoman generator for building compose extension for Microsoft Teams
 
 ## Installation
