@@ -26,9 +26,6 @@
   "dependencies": {
     "yeoman-generator": "^1.0.0"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "scripts": {
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
@@ -37,7 +34,6 @@
   "eslintConfig": {
     "extends": "xo-space",
     "env": {
-      "jest": true,
       "node": true
     }
   },
