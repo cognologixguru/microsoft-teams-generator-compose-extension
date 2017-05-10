@@ -1,0 +1,55 @@
+{
+ "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.0",
+  "version": "1.0",
+  "id": "GUID",
+  "packageName": "com.skype.teams.composeExtensionSample",
+  "developer": {
+    "name": "Your name",
+    "websiteUrl": "https://yourwebsite/",
+    "privacyUrl": "https://yourwebsite/privacy",
+    "termsOfUseUrl": "https://yourwebsite/termsofuse"
+  },
+  "name": {
+    "short": "<%= composeExtensionName %>",
+    "long": "<%= composeExtensionName %>"
+  },
+  "description": {
+    "short": "<%= description %>",
+    "full": "<%= description %>"
+  },
+  "icons": {
+    "outline": "Url to your icon",
+    "color": "Url to your icon"
+  },
+  "composeExtensions": [
+    {
+      "botId": "<%= botId %>",
+      "description": "Compose Extension description",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "commands": [
+        {
+          "title": "Command title",
+          "description": "Command description",
+          "id": "<%= commandId %>",
+          "parameters": [
+            {
+              "name": "testParam",
+              "title": "Testing parameter",
+              "description": "Testing parameter"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity"
+  ],
+  "validDomains": [
+    "Your domain"
+  ]
+}

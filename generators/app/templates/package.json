@@ -1,0 +1,25 @@
+{
+  "name": "<%= composeExtensionName %>",
+  "description": "<%= description %>",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ts-node -- ./app.ts"
+  },
+  "description": "Description",
+  "author": {
+    "name": "Your Name"
+  },
+  "dependencies": {
+    "botbuilder": "^3.8.0",
+    "botbuilder-teams": "^0.1.2",
+    "dotenv": "^2.0.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  }
+}
