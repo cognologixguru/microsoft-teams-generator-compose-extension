@@ -4,8 +4,8 @@
   "description": "Yeoman generator for building compose extension for Microsoft Teams",
   "homepage": "",
   "author": {
-    "name": "Mao Yu",
-    "email": "maoyu@microsoft.com",
+    "name": "Microsoft Corp",
+    "email": "",
     "url": ""
   },
   "files": [
