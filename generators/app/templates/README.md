@@ -1,4 +1,4 @@
-# <%= composeExtensionName %> Bot
+# <%= composeExtensionName %> compose extension
 
 This compose extension has been created using [Microsoft Bot Framework](https://dev.botframework.com), and scaffolded using the [Teams Compose Extension Yeoman generator](https://github.com/.
 
@@ -14,8 +14,8 @@ app.ts references the compose extension and starts a [Restify](http://restify.co
 
 ### Running the compose extension
 zip manifest.json and sideload to Teams
-npm install
-npm start
+<br>npm install
+<br>npm start
 
 ### Configuring the compose extension
 
